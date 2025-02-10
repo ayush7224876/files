@@ -1,26 +1,43 @@
 
-table { 
-    border: 1px solid black; 
-    margin-left: auto; 
-    margin-right: auto; 
-} 
+* {
+    margin: 0;
+  }
+  body {
+
+
+       display: flex;
+       text-align: center;
+       justify-content: center;
+        background-image: url("/cow.jpg");
+       background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+     height: 100vh;    
+  }
   
-input[type="button"] { 
-    width: 100%; 
-    padding: 20px 40px; 
-    background-color: green; 
-    color: white; 
-    font-size: 24px; 
-    font-weight: bold; 
-    border: none; 
-    border-radius: 5px; 
-} 
+  table {
+ background-color: rgb(230, 228, 228);
+      color: black;
+  }
   
-input[type="text"] { 
-    padding: 20px 30px; 
-    font-size: 24px; 
-    font-weight: bold; 
-    border: none; 
-    border-radius: 5px; 
-    border: 2px solid black; 
-} 
+  table tr {
+      height: 50px;
+    
+      font-size: 1.5em;
+      border: 2px solid ;
+    }
+    td:hover{
+        background-color: black;
+        color: white;
+    }
+    
+    table tr td {
+      border-radius: 60px;
+  }
+  
+  .keys-2 {
+      background-color:white;}
+
+  .keys {
+      background-color: 00212A ;   }
+ 

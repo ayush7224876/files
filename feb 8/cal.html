@@ -4,47 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="js.css">
-    <title>Document</title>
+    <title></title>
 </head>
 <body>
-    
-    <table id="calcu"> 
-        <tr> 
-            <td colspan="3"> 
-                <input type="text" id="result"> 
-            </td> 
-            <td><input type="button" value="c"></td> 
-        </tr> 
-  
-        <tr> 
-            <td><input type="button" value="1"></td> 
-            <td><input type="button" value="2"></td> 
-            <td><input type="button" value="3"></td> 
-            <td><input type="button" value="/"></td> 
-        </tr> 
-        <tr> 
-            <td><input type="button" value="4"></td> 
-            <td><input type="button" value="5"></td> 
-            <td><input type="button" value="6"></td> 
-            <td><input type="button" value="*"></td> 
-        </tr> 
-        <tr> 
-            <td><input type="button" value="7"></td> 
-            <td><input type="button" value="8"></td> 
-            <td><input type="button" value="9"></td> 
-            <td><input type="button" value="-"></td> 
-        </tr> 
-        <tr> 
-            <td><input type="button" value="0"></td> 
-            <td><input type="button" value="."></td> 
-            <td><input type="button" value="="></td> 
-            <td><input type="button" value="+"></td> 
-        </tr> 
-    </table> 
-</body> 
-  
-</html>  
+    <div class="cal"></div>
+<table border="1px" align="center" cellspacing="20px" cellpadding="20px">
 
-    <script src="js.js"></script>
+    <tr >
+   <td  id="display" colspan="4"  >0</td>
+    </tr>
+
+    <tr>
+        <td onclick="delAll('')" class="keys">AC</td>
+        <td onclick="del('')" class="keys">Del</td>
+        <td onclick="dis('%')" class="keys">%</td>
+        <td onclick="dis('/')" class="keys-2">/</td>
+    </tr>
+    <tr>
+        <td onclick="dis('7')">7</td>
+        <td onclick="dis('8')">8</td>
+        <td onclick="dis('9')">9</td>
+        <td onclick="dis('*')" class="keys-2">x</td>
+    </tr>
+    <tr>
+        <td onclick="dis('4')">4</td>
+        <td onclick="dis('5')">5</td>
+        <td onclick="dis('6')">6</td>
+        <td onclick="dis('-')" class="keys-2">-</td>
+    </tr>
+    <tr>
+        <td onclick="dis('1')">1</td>
+        <td onclick="dis('2')">2</td>
+        <td onclick="dis('3')">3</td>
+        <td onclick="dis('+')" class="keys-2">+</td>
+    </tr>
+    <tr>
+        <td onclick="dis('0')" >0</td>
+        <td onclick="dis('00')">00</td>
+        <td onclick="dis('.')">.</td>
+    
+        <td onclick="res()" colspan="2" align="center" class="total">=</td>
+
+    </tr>
+
+</table>
+
+
+<script src="js.js"></script>
+
 </body>
 </html>
