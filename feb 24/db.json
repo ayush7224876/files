@@ -1,0 +1,33 @@
+{
+
+    "hotel": [
+        { 
+            "name" : "ayushan",
+             "age" : "20",
+             "location" : "goa",
+             "rating" : "5"
+
+
+            
+        },
+        { 
+            "name" : "ayun",
+             "age" : "23",
+             "location" : "bhopal",
+             "rating" : "5"
+
+
+            
+        },
+        { 
+            "name" : "niht",
+             "age" : "26",
+             "location" : "mumbai",
+             "rating" : "5"
+
+
+            
+        }
+        
+    ]
+}
